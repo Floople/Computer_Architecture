@@ -1,0 +1,5 @@
+all: second.c
+		gcc -Wall -Werror -g -std=c99 -fsanitize=address -o second second.c
+
+clean:
+		rm -f second
