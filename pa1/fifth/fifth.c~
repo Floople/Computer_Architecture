@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char** argv) {
+  //char *result = NULL;
+  //char *temp = malloc(sizeof(char) * 2);
+  for(int i = 1; i < argc; i++) {
+    printf("&d", argc);
+  }
+  return 0;
+}
